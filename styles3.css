@@ -1,0 +1,154 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+   } 
+.container1{
+    display: flex;
+    width: 100%;
+    height: 760px;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+
+.container1 .header{
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-family:'Open Sans', sans-serif;
+    font-size: 43px;
+    left:82%;
+    padding-top: 10px;
+    /*margin-left: 70px;
+    margin-top:20px;
+    font-weight: bold;
+    left: 80%;
+    bottom: 10px;*/
+}
+.container1 div{
+    position:fixed;
+    background: #184D47;
+    width: 100%;
+    height: 80px;
+}
+.image{
+    position: absolute;
+    top:30%;
+}
+
+.container1 label{
+    position: absolute;
+    color: #184D47;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 540;
+    letter-spacing: 4px;
+}
+
+.container1 input{
+    position: absolute;
+    border-radius: 21px;
+    border: 3px solid #184D47;
+    background: #E8ECEB;
+    width: 480px;
+    height: 55px;
+}
+.industry{
+    top:17%;
+    left:53%;
+}
+
+#industry{
+    top:22%;
+    left:52.8%;
+}
+
+.requirements{
+    top:35.5%;
+    left:53%;
+}
+
+.container1 form #requirements{
+    top:41%;
+    left:53%;
+    height: 25%;
+    width:29%;
+    border-radius: 21px;
+    border: 1px solid rgba(24, 77, 71, 0.75);
+    background: #FFF;
+}
+
+.upload{
+    position: absolute;
+    top:73%;
+    left:52.9%;
+    color: #184D47;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 540;
+    letter-spacing: 4px;
+}
+
+.container1 p{
+    position: absolute;
+    top:79%;
+    left:53%;
+    padding: 4px 25px;
+    color: #FFF;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #000;
+    background: rgba(64, 178, 165, 0.80);
+}
+
+.container1 .next{
+    position: absolute;
+    font-size: 18px;
+    color:#000;
+    left:80%;
+    top:90%;
+    font-family: 'Noto Sans', sans-serif;;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    border-radius: 19px;
+    border: 3px solid #184D47;
+    background: #184D47;
+    padding: 12px 20px;
+}
+
+.container1 .back{
+    position: absolute;
+    font-size: 18px;
+    color:#000;
+    left:53%;
+    top:90%;
+    font-family: 'Noto Sans', sans-serif;;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    border-radius: 19px;
+    background: rgba(0, 0, 0, 0.27);
+    padding: 12px 20px;
+}
+
+#industry::placeholder{
+    position: absolute;
+    font-size: 18px;
+    color: #999; /* Change the color of the placeholder text */
+    padding-left: 7%;
+}
+
+#requirements::placeholder{
+    position: absolute;
+    font-size: 18px;
+    top:10%;
+    color: #999; /* Change the color of the placeholder text */
+    padding-left: 7%;
+}

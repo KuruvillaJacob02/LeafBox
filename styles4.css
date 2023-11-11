@@ -1,0 +1,114 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+   } 
+.container1{
+    display: flex;
+    width: 100%;
+    height: 2000px;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+
+.container1 img{
+    position: absolute;
+    width: 370;
+    height: 320;
+    top:150%;
+}
+
+.container1 h2{
+    position: absolute;
+}
+
+.container1 .head{
+    top:15%;
+    left:34%;
+}
+.container1 #gemina{
+    top:23%;
+    left:9%;
+}
+
+.container1 #evero{
+    top:70%;
+    left:68%;
+}
+
+.container1 #brik{
+    top:115%;
+    left:10%;
+    width:320;
+    height:350;
+}
+
+.container1 #prisma{
+    top:167%;
+    left:11%;
+    width:320;
+}
+
+.container1 input{
+    position: absolute;
+    right:40%;
+}
+.container1 label{
+    position: absolute;
+    color: black;
+    font-size: 44px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    right:35%;
+}
+
+.option1{
+    top:31%;
+    right:36%;
+}
+
+.option2{
+    top:75%;
+    left:23%;
+
+}
+
+.option3{
+    top:125%;
+    left:38.5%; 
+}
+
+.container1 .gemina{
+    top:41%;
+    left:38%;
+    width: 70%;
+    line-height:123%;
+    letter-spacing: 2px;
+}
+
+.container1 .evero{
+    top:85%;
+    left:18%;
+    width: 70%;
+    line-height:123%;
+    letter-spacing: 2px;
+}
+
+.container1 .brik{
+    top:135%;
+    left:35.5%;
+    width: 70%;
+    line-height:123%;
+    letter-spacing: 2px;
+}
+.container1 p{
+    position: absolute;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    top:20%;
+    right:30%;
+}

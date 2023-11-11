@@ -1,0 +1,211 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+   } 
+.container1{
+    display: flex;
+    width: 100%;
+    height: 760px;
+    flex-shrink: 0;
+    background-color: #E8ECEB;
+}
+
+.container1 img{
+    width: 40%;
+    z-index: 1;
+    
+}
+
+.container1 h2{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-family:'Open Sans', sans-serif;
+    font-size: 43px;
+    margin-left: 70px;
+    margin-top:20px;
+    font-weight: bold;
+    left: 80%;
+    bottom: 10px;;
+    
+}
+
+.container1 div{
+    position:fixed;
+    background: #184D47;
+    width: 100%;
+}
+.container1 h2 span{
+    color:#fff
+ }
+
+.container1 form label{
+    position: relative;
+    color: #184D47;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 590;
+    letter-spacing: 4px;
+}
+
+.container1 p{
+    position: relative;
+    color: #184D47;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 590;
+    letter-spacing: 4px;
+    top:24%;
+    left:125px;
+}
+.name{
+    position: absolute;
+    top:130px;
+    left:133px;
+}
+
+#name{
+    position: absolute;
+    top:165px;
+    right: 205px;
+}
+#name::placeholder{
+    position: absolute;
+    font-size: 18px;
+    color: #999; /* Change the color of the placeholder text */
+    padding-left: 7%;
+}
+.container1 form input{
+    border-radius: 21px;
+    border: 3px solid #184D47;
+    background: #E8ECEB;
+    width: 580px;
+    height: 55px;
+
+
+}
+#email::placeholder{
+    position: absolute;
+    font-size: 18px;
+    color: #999; /* Change the color of the placeholder text */
+    padding-left: 7%;
+}
+.container1 .email{
+    position: absolute;
+    top:335px;
+    left: 740px;
+}
+#email{
+    position: absolute;
+    top:380px;
+    left:48.5%;
+}
+
+.phone{
+    position: absolute;
+    top:420px;
+    left: 46%;
+}
+#phone{
+    position: absolute;
+    top:509px;
+    left:48.5%;
+}
+
+/*
+#location{
+    position: absolute;
+    top:600px;
+    left: 46%;
+}*/
+.container1 #option1{
+    position:absolute;
+    transform: scale(0.4);
+    top:270px;
+    right:31.5%;
+    color:red;
+}
+.container1 #option2{
+    position:absolute;
+    transform: scale(0.4);
+    top:270px;
+    right:20%;
+}
+.container1 .option1{
+    position: absolute;
+    color: #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    top:38.5%;
+    left:785px;
+    letter-spacing: 2px;
+    }
+.container1 .option2{
+    position: absolute;
+    color: #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    top:38.5%;
+    left:950px;
+    letter-spacing: 2px;
+    }
+.location{
+    position: absolute;
+    top:500px;
+    left: 46%;
+}
+#location{
+    position: absolute;
+    top:620px;
+    left: 48.5%;
+}
+
+#location::placeholder{
+    position: absolute;
+    font-size: 18px;
+    color: #999; /* Change the color of the placeholder text */
+    padding-left: 7%;
+}
+.joinImage{
+    background: lightgray url("images/join.png");
+}
+
+.container1 .next{
+    position: absolute;
+    font-size: 18px;
+    color:#000;
+    left:82%;
+    top:93%;
+    font-family: 'Noto Sans', sans-serif;;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    border-radius: 19px;
+    border: 3px solid #184D47;
+    background: #184D47;
+    padding: 12px 20px;
+}
+
+.container1 .back{
+    position: absolute;
+    font-size: 18px;
+    color:#000;
+    left:48%;
+    top:93%;
+    font-family: 'Noto Sans', sans-serif;;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    border-radius: 19px;
+    background: rgba(0, 0, 0, 0.27);
+    padding: 12px 20px;
+}
